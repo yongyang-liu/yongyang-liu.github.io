@@ -1,55 +1,65 @@
 ---
 permalink: /
-title: "Yongyang"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+## **About Me**
 
+I am Yongyang Liu, an incoming Assistant Professor in the Department of Mechanical and Nuclear Engineering at Tennessee Technological University. Prior to this position, I was a postdoctoral fellow in the [Autonomous and Connected Transportation Lab](https://sites.gatech.edu/actlab/) at Georgia Institute of Technology, working with [Prof. Srinivas Peeta](https://peeta.ce.gatech.edu/), where I also received my Ph.D. degree. I received my M.S. degree in Traffic Information Engineering and Control at Zhejiang University, supervised by [Prof. Yibing Wang](http://iits.zju.edu.cn/international/2018/0822/c21523a847062/page.psp), and B.S. degree in Traffic Engineering at South China University of Technology, supervised by [Prof. Kai Lu](https://faculty.scut.edu.cn/tmyjt/lk5_en/main.htm).
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My research lies at the intersection of AI, human-robot interaction, and autonomous systems, with a focus on developing human-centered, interpretable, and adaptive autonomy. I integrate machine learning, human behavior and cognitive modeling, and human-in-the-loop experimentation to design intelligent systems that can collaborate safely, adaptively, and transparently with humans in real-world environments. 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+A central aspect of my work is bridging algorithm development with real-world validation. I develop learning-based control and decision-making frameworks while grounding them through simulation-to-real platforms, digital twins, and human-in-the-loop experimental systems. This integrated approach enables the study of autonomy not only in terms of performance, but also in terms of safety, interpretability, and alignment with human expectations.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My research spans several interconnected areas, including 
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+* 🤖 AI for Robotics & Autonomous Systems  
+* 👥 Human-Robot Interaction   
+* 🧠 Human Behavior & Cognitive Modeling   
+* 🔗 Multimodal Perception, Reason, and Control Integration  
+* 📊 Human-in-the-Loop & Hardware-in-the-loop Experimentation  
+* 🔄 Digital Twins & Simulation for Autonomous Systems 
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Together, these directions advance the development of intelligent systems that can perceive, reason, and collaborate effectively with humans in safety-critical environments. 
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## ***Research Themes***
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Human-Centered Autonomy**
 
-**Markdown generator**
+* Developing autonomous systems that align with human behavior, cognition, and expectations for safe and intuitive interaction.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+**AI-Enabled Control for Autonomous Systems**
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+* Developing learning-based control frameworks for adaptive decision-making in dynamic, multi-agent environments.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+**End-to-End Generative Autonomy**
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+* Leveraging vision-language-action models and generative AI for unified perception, reasoning, and real-time decision-making.
+
+**Human Behavior and Cognitive Modeling**
+
+* Understanding human behavior, trust, and decision-making through human-in-the-loop experiments to support effective human-autonomy interaction.
+
+(Link them to each theme in Section of Research)
+
+## ***Call to Action***
+
+I am recruiting highly motivated Ph.D. students to join my research group at Tennessee Technological University, with start dates in **Spring 2027**. See more 
+
+(add hyperlink in “see more” to Section of Join us)
+
+## ***News***
+
+* **April 2026**. Our paper “Navigating in Mixed Traffic: A Human-Centric Approach to Manage Lane Changes of Human-Driven Vehicles” is accepted for publication in *IEEE Transactions on Intelligent Transportation Systems* 
+
+* **January 2026**. My Ph.D dissertation “Navigating Mixed Traffic: Lateral and Longitudinal Control for Connected and Autonomous Vehicles with a Human-Centric Approach” received the 2025 Best Dissertation Award at Chinese Overseas Transportation Association (COTA)
+
+* **September 2025**. Interview with *The National News*: “Driverless vehicles are now in hackers’ crosshairs \- and cyber security experts prepare for the worst” \[[Link](https://www.thenationalnews.com/future/technology/2025/09/12/can-hackers-break-into-driverless-vehicles/)\] 
+
+* **June 2025**. Interview with *Fox 5 News, Atlanta (WAGA)*: “Waymo expands robotaxi service to Atlanta in partnership with Uber” \[[Link](https://www.fox5atlanta.com/news/waymo-expands-robotaxi-service-atlanta-partnership-uber)\] 
+
+* **May 2025**. Our paper “Human-Like Lane-Change Control Strategy for Connected and Autonomous Vehicles to Improve Interactions with Human-Driven Vehicles” was accepted and published in *Transportation Research Part C* \[[Link](https://doi.org/10.1016/j.trc.2025.105211)\]
+
+* **January 2025**. Our paper “Proactive Longitudinal Control to Assist Lane Changes of Human-Driven Vehicles in Mixed Traffic: Human-Emulation Approach” is accepted and published in *Automotive Innovation* \[[Link](https://link.springer.com/article/10.1007/s42154-025-00357-9)\]
