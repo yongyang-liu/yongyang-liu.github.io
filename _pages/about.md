@@ -5,8 +5,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## **About Me**
-
 I am Yongyang Liu, an incoming Assistant Professor in the Department of Mechanical and Nuclear Engineering at Tennessee Technological University. Prior to this position, I was a postdoctoral fellow in the [Autonomous and Connected Transportation Lab](https://sites.gatech.edu/actlab/) at Georgia Institute of Technology, working with [Prof. Srinivas Peeta](https://peeta.ce.gatech.edu/), where I also received my Ph.D. degree. I received my M.S. degree in Traffic Information Engineering and Control at Zhejiang University, supervised by [Prof. Yibing Wang](http://iits.zju.edu.cn/international/2018/0822/c21523a847062/page.psp), and B.S. degree in Traffic Engineering at South China University of Technology, supervised by [Prof. Kai Lu](https://faculty.scut.edu.cn/tmyjt/lk5_en/main.htm).
 
 My research lies at the intersection of AI, human-robot interaction, and autonomous systems, with a focus on developing human-centered, interpretable, and adaptive autonomy. I integrate machine learning, human behavior and cognitive modeling, and human-in-the-loop experimentation to design intelligent systems that can collaborate safely, adaptively, and transparently with humans in real-world environments. 
