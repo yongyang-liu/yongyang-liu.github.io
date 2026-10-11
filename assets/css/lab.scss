@@ -180,6 +180,11 @@ a.card:hover { border-color: #b7c3d2; box-shadow: 0 2px 10px rgba(24, 33, 43, .0
 .platform--flip { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); }
 .platform--flip .figure { order: 2; }
 .platform--text { grid-template-columns: minmax(0, 1fr); }
+.platform--wide { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+.platform--wide .platform__body { max-width: 880px; }
+.platform--wide .figure { max-width: 880px; }
+.platform--wide .figure img { width: auto; max-width: 100%; max-height: 560px; }
+.figure a { display: block; }
 .platform--text .platform__body { max-width: 880px; }
 .platform__title { font-size: 21px; font-weight: 600; }
 .platform__body > * + * { margin-top: 14px; }
