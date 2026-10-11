@@ -7,7 +7,7 @@ prose: true
 
 ## Ph.D. Opportunities
 
-The Socially Intelligent Autonomy, Reasoning, and Learning Lab (STARLab) at Tennessee Technological University welcomes highly motivated Ph.D. students interested in advancing artificial intelligence, robotics, and autonomous systems.
+The Socially Intelligent Autonomy, Reasoning, and Learning Laboratory (STARLab) at Tennessee Technological University welcomes highly motivated Ph.D. students interested in advancing artificial intelligence, robotics, and autonomous systems.
 
 **We are recruiting prospective Ph.D. students with anticipated start dates in Spring/Fall 2027.**
 

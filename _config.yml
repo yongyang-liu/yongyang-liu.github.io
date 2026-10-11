@@ -5,8 +5,8 @@
 # Site identity
 locale      : "en-US"
 title       : "STARLab"
-lab_name    : "Socially Intelligent Autonomy, Reasoning, and Learning Lab"
-description : "STARLab (Socially Intelligent Autonomy, Reasoning, and Learning Lab) at Tennessee Technological University advances AI, robotics, and intelligent autonomous systems."
+lab_name    : "Socially Intelligent Autonomy, Reasoning, and Learning Laboratory"
+description : "STARLab (Socially Intelligent Autonomy, Reasoning, and Learning Laboratory) at Tennessee Technological University advances AI, robotics, and intelligent autonomous systems."
 url         : https://yongyang-liu.github.io
 baseurl     : ""
 

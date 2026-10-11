@@ -1,6 +1,6 @@
 # STARLab Website
 
-Source for the website of the **Socially Intelligent Autonomy, Reasoning, and Learning Lab (STARLab)**,
+Source for the website of the **Socially Intelligent Autonomy, Reasoning, and Learning Laboratory (STARLab)**,
 Department of Mechanical and Nuclear Engineering, Tennessee Technological University.
 
 Live site: https://yongyang-liu.github.io/
