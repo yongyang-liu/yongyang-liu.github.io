@@ -6,11 +6,13 @@ redirect_from:
   - /cv/
   - /resume/
 # PI portrait: place the file in images/people/ and set the path below.
-pi_photo: ""
-# Academic profiles shown after "Academic Profiles:" (add LinkedIn / ORCID when verified).
+pi_photo: "/images/people/yongyang-liu.jpg"
+# Academic profiles shown after "Academic Profiles:" (add ORCID when ready).
 pi_profiles:
   - name: "Google Scholar"
     url: "https://scholar.google.com/citations?user=SNYiUT4AAAAJ&hl=en"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/yongyang-liu-6694b71a3/"
 ---
 
 <section class="section section--tight-top" aria-labelledby="pi-name">
@@ -18,7 +20,7 @@ pi_profiles:
     <div class="profile{% if page.pi_photo == '' %} profile--no-photo{% endif %}">
       {% if page.pi_photo != '' %}
       <div class="profile__photo">
-        <img src="{{ page.pi_photo | relative_url }}" alt="Portrait of Dr. Yongyang Liu" width="480" height="600">
+        <img src="{{ page.pi_photo | relative_url }}" alt="Portrait of Dr. Yongyang Liu" width="600" height="800">
       </div>
       {% endif %}
       <div>
