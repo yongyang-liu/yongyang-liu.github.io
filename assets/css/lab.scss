@@ -7,8 +7,8 @@
   --ink: #18212b;
   --ink-2: #3e4a59;
   --muted: #5b6573;
-  --accent: #1f3a5f;
-  --accent-dark: #0f2440;
+  --accent: #0c3050;
+  --accent-dark: #061d33;
   --accent-soft: #e9eef5;
   --line: #dde2e8;
   --line-soft: #e8ecf0;
@@ -55,11 +55,8 @@ main:focus { outline: none; }
   max-width: 1216px; margin: 0 auto; padding: 10px 32px;
   display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 32px;
 }
-.brand {
-  font-family: var(--serif); font-weight: 700; font-size: 23px;
-  color: var(--ink); text-decoration: none; padding: 8px 0;
-}
-.brand:hover { color: var(--accent); }
+.brand { display: block; padding: 6px 0; line-height: 0; }
+.brand img { height: 46px; width: auto; }
 .site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0 24px; }
 .site-nav a {
   display: block; padding: 12px 0; font-size: 15.5px; color: var(--muted);
@@ -237,6 +234,7 @@ a.card:hover { border-color: #b7c3d2; box-shadow: 0 2px 10px rgba(24, 33, 43, .0
   .site-header__inner { padding: 8px 20px; }
   .site-nav ul { gap: 0 18px; }
   .site-nav a { padding: 8px 0; }
+  .brand img { height: 36px; }
   .grid-3, .grid-2 { grid-template-columns: minmax(0, 1fr); }
   .hero { padding: 72px 0 72px; }
   .hero__title { font-size: 52px; }
