@@ -1,0 +1,25 @@
+# Builds the site with the same Jekyll setup GitHub Pages uses, without deploying.
+# Runs on preview branches so changes can be checked before they reach master.
+name: Build check
+
+on:
+  push:
+    branches-ignore: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build with GitHub Pages Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: List built pages
+        run: find _site -name '*.html' | sort
