@@ -46,29 +46,29 @@ show_title: true
   <div class="wrap">
     <h2 class="section-title" id="fac-platforms" style="margin-bottom: 12px;">Research Platforms &amp; Resources</h2>
 
-    <div class="platform platform--wide" id="vr-simulator">
+    <div class="platform" id="vr-simulator">
+      <figure class="figure">
+        <a href="{{ '/images/facilities/vr-simulator-architecture.jpg' | relative_url }}"><img src="{{ '/images/facilities/vr-simulator-architecture.jpg' | relative_url }}" width="1600" height="900" loading="lazy" alt="Concept diagram of the planned VR driving simulator: a driving simulator sends steering, throttle, and brake inputs to a VR headset that returns an immersive view, while CARLA provides the simulated 3D environment and SUMO exchanges traffic states with CARLA."></a>
+        <figcaption>Planned VR driving simulator integration (conceptual illustration; platform under development).</figcaption>
+      </figure>
       <div class="platform__body">
         <h3 class="platform__title">1. Immersive Simulation and Human-in-the-Loop Systems</h3>
         <p>A VR-based driving simulator is currently under development in STARLab's primary experimental space at Tennessee Tech. The planned platform integrates driving controls, immersive virtual environments, traffic simulation, and synchronized experimental data acquisition.</p>
         <p>The simulator is designed to support repeatable human-in-the-loop experiments and systematic investigation of human behavior and interactions with autonomous systems.</p>
       </div>
-      <figure class="figure">
-        <a href="{{ '/images/facilities/vr-simulator-architecture.jpg' | relative_url }}"><img src="{{ '/images/facilities/vr-simulator-architecture.jpg' | relative_url }}" width="1600" height="900" loading="lazy" alt="Concept diagram of the planned VR driving simulator: a driving simulator sends steering, throttle, and brake inputs to a VR headset that returns an immersive view, while CARLA provides the simulated 3D environment and SUMO exchanges traffic states with CARLA."></a>
-        <figcaption>Planned VR driving simulator integration (conceptual illustration; platform under development).</figcaption>
-      </figure>
     </div>
 
-    <div class="platform platform--wide" id="qcar">
+    <div class="platform platform--flip" id="qcar">
+      <figure class="figure">
+        <a href="{{ '/images/facilities/scaled-av-platform.jpg' | relative_url }}"><img src="{{ '/images/facilities/scaled-av-platform.jpg' | relative_url }}" width="1448" height="1086" loading="lazy" alt="Illustrative scaled autonomous research vehicle with labeled LiDAR sensor, stereo depth camera, onboard computing module, control and power electronics, status light, chassis, and drive and steering system."></a>
+        <figcaption>Illustrative scaled autonomous research vehicle platform (conceptual schematic).</figcaption>
+      </figure>
       <div class="platform__body">
         <h3 class="platform__title">2. Scaled Autonomous Systems — Quanser Self-Driving Car Studio</h3>
         <p>A Quanser Self-Driving Car Studio with four QCar 2 scaled autonomous vehicles is planned as a physical robotic research platform.</p>
         <p>The system is intended to support autonomous perception, localization, planning, control, and multi-vehicle experimentation, providing an intermediate layer between virtual simulation and full-scale autonomous-system testing.</p>
         <p>The platform is under development, with installation pending.</p>
       </div>
-      <figure class="figure">
-        <a href="{{ '/images/facilities/scaled-av-platform.jpg' | relative_url }}"><img src="{{ '/images/facilities/scaled-av-platform.jpg' | relative_url }}" width="1448" height="1086" loading="lazy" alt="Illustrative scaled autonomous research vehicle with labeled LiDAR sensor, stereo depth camera, onboard computing module, control and power electronics, status light, chassis, and drive and steering system."></a>
-        <figcaption>Illustrative scaled autonomous research vehicle platform (conceptual schematic).</figcaption>
-      </figure>
     </div>
 
     <div class="platform" id="autonomous-vehicles">
@@ -84,19 +84,19 @@ show_title: true
       </div>
     </div>
 
-    <div class="platform platform--wide" id="human-sensing">
+    <div class="platform platform--flip" id="human-sensing">
+      <figure class="figure">
+        <a href="{{ '/images/facilities/eeg-ecg-sensing.jpg' | relative_url }}"><img src="{{ '/images/facilities/eeg-ecg-sensing.jpg' | relative_url }}" width="1536" height="1024" loading="lazy" alt="Illustration of EEG, which measures the brain's electrical activity with scalp electrodes, and ECG, which measures the heart's electrical activity with chest electrodes, with the types of information each provides."></a>
+        <figcaption>EEG and ECG physiological sensing (conceptual illustration).</figcaption>
+      </figure>
       <div class="platform__body">
         <h3 class="platform__title">4. Multimodal Human Sensing and Measurement</h3>
         <p>Our experimental infrastructure is being developed to integrate behavioral measurements with EEG and ECG physiological sensing.</p>
         <p>These capabilities are intended to support multimodal studies of human-autonomy interaction by combining observed behavior, physiological responses, and corresponding autonomous-system actions.</p>
       </div>
-      <figure class="figure">
-        <a href="{{ '/images/facilities/eeg-ecg-sensing.jpg' | relative_url }}"><img src="{{ '/images/facilities/eeg-ecg-sensing.jpg' | relative_url }}" width="1536" height="1024" loading="lazy" alt="Illustration of EEG, which measures the brain's electrical activity with scalp electrodes, and ECG, which measures the heart's electrical activity with chest electrodes, with the types of information each provides."></a>
-        <figcaption>EEG and ECG physiological sensing (conceptual illustration).</figcaption>
-      </figure>
     </div>
 
-    <div class="platform platform--flip" id="ev-resources">
+    <div class="platform" id="ev-resources">
       <figure class="figure">
         <img src="{{ '/images/facilities/ev-fleet.jpg' | relative_url }}" width="687" height="515" loading="lazy" alt="Several electric vehicles from the Tennessee Tech Vehicle Engineering fleet parked outdoors.">
         <figcaption>Supporting Vehicle Engineering electric vehicle fleet at Tennessee Tech.</figcaption>
