@@ -1,12 +1,12 @@
-# STAR Lab website — Jekyll configuration
+# STARLab website — Jekyll configuration
 # Built and published by GitHub Pages from the master branch.
 # Restart `jekyll serve` after editing this file.
 
 # Site identity
 locale      : "en-US"
-title       : "STAR Lab"
+title       : "STARLab"
 lab_name    : "Socially Intelligent Autonomy, Reasoning, and Learning Lab"
-description : "STAR Lab (Socially Intelligent Autonomy, Reasoning, and Learning Lab) at Tennessee Technological University advances AI, robotics, and intelligent autonomous systems."
+description : "STARLab (Socially Intelligent Autonomy, Reasoning, and Learning Lab) at Tennessee Technological University advances AI, robotics, and intelligent autonomous systems."
 url         : https://yongyang-liu.github.io
 baseurl     : ""
 
