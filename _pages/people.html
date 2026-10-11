@@ -1,0 +1,95 @@
+---
+title: "People"
+permalink: /people/
+show_title: true
+redirect_from:
+  - /cv/
+  - /resume/
+# PI portrait: place the file in images/people/ and set the path below.
+pi_photo: ""
+# Academic profiles shown after "Academic Profiles:" (add LinkedIn / ORCID when verified).
+pi_profiles:
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=SNYiUT4AAAAJ&hl=en"
+---
+
+<section class="section section--tight-top" aria-labelledby="pi-name">
+  <div class="wrap">
+    <div class="profile{% if page.pi_photo == '' %} profile--no-photo{% endif %}">
+      {% if page.pi_photo != '' %}
+      <div class="profile__photo">
+        <img src="{{ page.pi_photo | relative_url }}" alt="Portrait of Dr. Yongyang Liu" width="480" height="600">
+      </div>
+      {% endif %}
+      <div>
+        <h2 class="profile__name" id="pi-name">Yongyang Liu, Ph.D.</h2>
+        <p class="profile__meta">Assistant Professor<br>Department of Mechanical and Nuclear Engineering<br>Tennessee Technological University</p>
+        <div class="profile__contact">
+          <p><strong>Email:</strong> <a href="mailto:yliu@tntech.edu">yliu@tntech.edu</a></p>
+          {% if page.pi_profiles.size > 0 %}
+          <p><strong>Academic Profiles:</strong> {% for profile in page.pi_profiles %}<a href="{{ profile.url }}">{{ profile.name }}</a>{% unless forloop.last %} | {% endunless %}{% endfor %}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="block" style="margin-top: 40px;">
+      <h3 class="block__title">Biography</h3>
+      <div class="measure stack">
+        <p>Dr. Yongyang Liu is an Assistant Professor in the Department of Mechanical and Nuclear Engineering at Tennessee Technological University, where he leads the Socially Intelligent Autonomy, Reasoning, and Learning Lab (STAR Lab). Prior to joining Tennessee Tech, he was a Postdoctoral Fellow in the Autonomous and Connected Transportation Lab at the Georgia Institute of Technology, working with Prof. Srinivas Peeta.</p>
+        <p>His research lies at the intersection of artificial intelligence, human-robot interaction, and autonomous systems, focusing on developing Socially Intelligent Autonomy (SIA) with an emphasis on AI-enabled reasoning and learning in human-autonomy interaction. His work integrates machine learning, human behavior and cognitive modeling, and learning-based decision-making and control to develop intelligent systems that can interact safely, adaptively, and transparently with humans in dynamic and uncertain environments.</p>
+        <p>His research also encompasses intelligent mobility and transportation systems, including connected and autonomous vehicles, human driving behavior, transportation safety, and traffic operations.</p>
+        <p>A central aspect of his research is bridging algorithm development with real-world experimentation and validation. He develops learning-based control and decision-making frameworks while grounding them through simulation-to-real platforms, digital twins, and human-in-the-loop experimental systems.</p>
+        <p>His research spans several interconnected areas, including:</p>
+        <ul class="two-col">
+          <li><strong>AI for Robotics &amp; Autonomous Systems</strong></li>
+          <li><strong>Human-Robot Interaction</strong></li>
+          <li><strong>Human Behavior &amp; Cognitive Modeling</strong></li>
+          <li><strong>Multimodal Perception, Reasoning, and Control Integration</strong></li>
+          <li><strong>Human-in-the-Loop &amp; Hardware-in-the-Loop Experimentation</strong></li>
+          <li><strong>Digital Twins &amp; Simulation for Autonomous Systems</strong></li>
+          <li><strong>Intelligent Mobility &amp; Transportation Systems</strong></li>
+        </ul>
+        <p>Together, these directions advance the development of human-centered, interpretable, and adaptive autonomy that can perceive, reason, learn, and collaborate effectively with humans in safety-critical environments.</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3 class="block__title">Education</h3>
+      <p><strong>Ph.D., Georgia Institute of Technology, Transportation Engineering | 2024</strong></p>
+      <p><strong>M.S., Zhejiang University, Transportation Engineering | 2018</strong></p>
+      <p><strong>B.S., South China University of Technology, Transportation Engineering | 2015</strong></p>
+    </div>
+
+    <div class="block">
+      <h3 class="block__title">Academic &amp; Research Appointments</h3>
+      <dl class="timeline">
+        <dt>2026–Present</dt><dd>Assistant Professor, Tennessee Technological University</dd>
+        <dt>2024–2026</dt><dd>Postdoctoral Fellow, Georgia Institute of Technology</dd>
+        <dt>2018–2024</dt><dd>Graduate Research Assistant, Georgia Institute of Technology</dd>
+        <dt>2015–2018</dt><dd>Graduate Research Assistant, Zhejiang University</dd>
+        <dt>2012–2015</dt><dd>Undergraduate Research Assistant, South China University of Technology</dd>
+      </dl>
+    </div>
+
+    <div class="block">
+      <h3 class="block__title">Professional Service</h3>
+      <div class="measure stack">
+        <p>Dr. Liu has served as a peer reviewer for leading journals and conferences in intelligent transportation, autonomous systems, artificial intelligence, and data science, completing over 130 manuscript and conference paper reviews.</p>
+        <p>Selected venues include:</p>
+        <ul class="two-col">
+          <li><em>IEEE Transactions on Intelligent Transportation Systems</em></li>
+          <li><em>IEEE Transactions on Intelligent Vehicles</em></li>
+          <li><em>IEEE Transactions on Vehicular Technology</em></li>
+          <li><em>IEEE Transactions on Knowledge and Data Engineering</em></li>
+          <li><em>IEEE Transactions on Fuzzy Systems</em></li>
+          <li><em>IEEE Internet of Things Journal</em></li>
+          <li><em>Transportation Research Part B: Methodological</em></li>
+          <li><em>Transportation Research Part C: Emerging Technologies</em></li>
+          <li><em>IEEE Intelligent Vehicles Symposium</em></li>
+          <li><em>IEEE International Conference on Intelligent Transportation Systems</em></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
