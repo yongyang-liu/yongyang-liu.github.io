@@ -1,0 +1,94 @@
+---
+title: "Home"
+permalink: /
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <h1 class="hero__title" id="hero-title">STAR Lab</h1>
+    <p class="hero__name">Socially Intelligent Autonomy, Reasoning, and Learning Lab</p>
+    <p class="hero__tagline">Advancing AI, Robotics, and Intelligent Autonomous Systems</p>
+  </div>
+</section>
+
+<section class="section section--tint" aria-labelledby="sia-title">
+  <div class="wrap">
+    <h2 class="section-title--lg" id="sia-title">Socially Intelligent Autonomy</h2>
+    <p class="section-subtitle--accent">Human–Autonomy Interaction · AI-Enabled Reasoning &amp; Learning</p>
+    <p class="lead">We investigate how humans and autonomous systems interact, respond to, and adapt to one another. Our research integrates human behavior and cognitive modeling with AI-enabled reasoning, learning, and decision-making to advance socially intelligent, human-centered autonomous systems.</p>
+    <a class="more" href="{{ '/research/#theme-1' | relative_url }}">Discover Our Research {% include lab/arrow.html %}</a>
+
+    <div class="subsection">
+      <h3 class="subsection__title">Research Across Intelligent Autonomous Systems</h3>
+      <div class="grid-3">
+        <a class="card" href="{{ '/research/#theme-2' | relative_url }}"><span class="card__title">Learning-Based Decision-Making &amp; Control</span></a>
+        <a class="card" href="{{ '/research/#theme-3' | relative_url }}"><span class="card__title">Generative AI for Autonomous Systems</span></a>
+        <a class="card" href="{{ '/research/#theme-4' | relative_url }}"><span class="card__title">Human Behavior, Cognition &amp; Interaction</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="imts-title">
+  <div class="wrap">
+    <div class="panel">
+      <h2 class="section-title" id="imts-title">Intelligent Mobility &amp; Transportation Systems</h2>
+      <p class="section-subtitle">Connected &amp; Autonomous Vehicles · Transportation Safety · Traffic Operations</p>
+      <p class="measure" style="margin-top: 16px;">Our research also advances intelligent mobility and transportation systems, including connected and autonomous vehicles, human driving behavior, transportation safety, and traffic operations. We investigate how intelligent transportation technologies influence the safety, efficiency, and performance of transportation systems.</p>
+      <a class="more" href="{{ '/research/#imts' | relative_url }}">Explore Transportation Research {% include lab/arrow.html %}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight-top" aria-labelledby="facilities-title">
+  <div class="wrap">
+    <h2 class="section-title" id="facilities-title">From Simulation to Embodied Autonomy</h2>
+    <p class="section-subtitle" style="font-weight: 400;">Experimental research infrastructure integrating simulation, human measurement, and physical autonomous platforms.</p>
+    <div class="grid-3" style="margin-top: 24px;">
+      <div class="card tile">
+        <span class="tile__label">Simulation &amp; HITL</span>
+        <span class="tile__name">VR driving simulator</span>
+        <span class="status">Under development</span>
+      </div>
+      <div class="card tile">
+        <span class="tile__label">Scaled Autonomy</span>
+        <span class="tile__name">Quanser QCar 2 Studio</span>
+        <span class="status">Installation pending</span>
+      </div>
+      <div class="card tile">
+        <span class="tile__label">Full-Scale Autonomy</span>
+        <span class="tile__name">Two Nissan Leaf-based AVs</span>
+        <span class="status">Existing platforms</span>
+      </div>
+    </div>
+    <p style="margin-top: 22px; color: var(--ink-2);">Complementary capabilities include multimodal human sensing, AI computing, and a supporting electric vehicle fleet.</p>
+    <a class="more" href="{{ '/facilities/' | relative_url }}">Explore Facilities {% include lab/arrow.html %}</a>
+  </div>
+</section>
+
+<section class="section section--rule" aria-labelledby="news-title">
+  <div class="wrap">
+    <h2 class="section-title" id="news-title">News</h2>
+    <ul class="news">
+      {% for item in site.data.news %}
+      <li><strong>{{ item.date }}.</strong> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section section--tight-top" aria-labelledby="join-title">
+  <div class="wrap">
+    <div class="callout">
+      <div class="callout__body">
+        <h2 id="join-title">Join STAR Lab</h2>
+        <p>We welcome motivated students interested in artificial intelligence, robotics, human–autonomy interaction, and intelligent autonomous systems.</p>
+        <p class="callout__strong">Prospective Ph.D. Students · Spring/Fall 2027</p>
+      </div>
+      <a class="button-light" href="{{ '/join-us/' | relative_url }}">View Opportunities</a>
+    </div>
+  </div>
+</section>

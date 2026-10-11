@@ -1,0 +1,20 @@
+# Home page News list, newest first.
+# Each item: `date` (shown in bold) and `text` (Markdown; links and *italics* allowed).
+
+- date: "April 2026"
+  text: 'Our paper "[Navigating in Mixed Traffic: A Human-Centric Approach to Manage Lane Changes of Human-Driven Vehicles](https://doi.org/10.1109/TITS.2026.3682923)" is accepted and published in *IEEE Transactions on Intelligent Transportation Systems*.'
+
+- date: "January 2026"
+  text: 'My Ph.D. dissertation "Navigating Mixed Traffic: Lateral and Longitudinal Control for Connected and Autonomous Vehicles with a Human-Centric Approach" received the 2025 Best Dissertation Award from the Chinese Overseas Transportation Association (COTA).'
+
+- date: "September 2025"
+  text: 'Interview with *The National News*: "[Driverless vehicles are now in hackers'' crosshairs — and cyber security experts prepare for the worst](https://www.thenationalnews.com/future/technology/2025/09/12/can-hackers-break-into-driverless-vehicles/)".'
+
+- date: "June 2025"
+  text: 'Interview with *Fox 5 News, Atlanta (WAGA)*: "[Waymo expands robotaxi service to Atlanta in partnership with Uber](https://www.fox5atlanta.com/news/waymo-expands-robotaxi-service-atlanta-partnership-uber)".'
+
+- date: "May 2025"
+  text: 'Our paper "[Human-Like Lane-Change Control Strategy for Connected and Autonomous Vehicles to Improve Interactions with Human-Driven Vehicles](https://doi.org/10.1016/j.trc.2025.105211)" is accepted and published in *Transportation Research Part C*.'
+
+- date: "January 2025"
+  text: 'Our paper "[Proactive Longitudinal Control to Assist Lane Changes of Human-Driven Vehicles in Mixed Traffic: Human-Emulation Approach](https://doi.org/10.1007/s42154-025-00357-9)" is accepted and published in *Automotive Innovation*.'
