@@ -28,8 +28,7 @@ kramdown:
   smart_quotes   : lsquo,rsquo,ldquo,rdquo
 
 sass:
-  sass_dir : _sass
-  style    : compressed
+  style : compressed
 
 include:
   - _pages

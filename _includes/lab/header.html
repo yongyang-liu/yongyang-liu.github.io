@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}">STAR Lab</a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        {% for link in site.data.navigation.main %}
+          {% if link.url == "/" %}
+            {% if page.url == "/" or page.url == "/index.html" %}{% assign current = true %}{% else %}{% assign current = false %}{% endif %}
+          {% else %}
+            {% if page.url contains link.url %}{% assign current = true %}{% else %}{% assign current = false %}{% endif %}
+          {% endif %}
+          <li><a href="{{ link.url | relative_url }}"{% if current %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

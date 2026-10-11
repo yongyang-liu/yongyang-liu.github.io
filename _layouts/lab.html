@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {% include lab/head.html %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  {% include lab/header.html %}
+  <main id="main" tabindex="-1">
+    {% if page.show_title %}
+    <header class="page-header">
+      <div class="wrap">
+        <h1 class="page-title">{{ page.title }}</h1>
+      </div>
+    </header>
+    {% endif %}
+    {% if page.prose %}
+    <div class="wrap prose">
+      {{ content }}
+    </div>
+    {% else %}
+    {{ content }}
+    {% endif %}
+  </main>
+  {% include lab/footer.html %}
+</body>
+</html>
