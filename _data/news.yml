@@ -1,6 +1,9 @@
 # Home page News list, newest first.
 # Each item: `date` (shown in bold) and `text` (Markdown; links and *italics* allowed).
 
+- date: "October 2026"
+  text: 'Dr. Liu joined the Youth Editorial Board of the *International Journal of Transportation Science and Technology* (IJTST).'
+
 - date: "April 2026"
   text: 'Our paper "[Navigating in Mixed Traffic: A Human-Centric Approach to Manage Lane Changes of Human-Driven Vehicles](https://doi.org/10.1109/TITS.2026.3682923)" is accepted and published in *IEEE Transactions on Intelligent Transportation Systems*.'
 
