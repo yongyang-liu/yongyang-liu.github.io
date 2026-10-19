@@ -2,6 +2,9 @@
 # Each item: `date` (shown in bold) and `text` (Markdown; links and *italics* allowed).
 
 - date: "October 2026"
+  text: 'Our paper "[Proactive Longitudinal Control to Assist Lane Changes of Human-Driven Vehicles in Mixed Traffic: Human-Emulation Approach](https://doi.org/10.1007/s42154-025-00357-9)" received the 2025 Outstanding Paper Award from *Automotive Innovation*.'
+
+- date: "October 2026"
   text: 'Dr. Liu joined the Youth Editorial Board of the *International Journal of Transportation Science and Technology* (IJTST).'
 
 - date: "April 2026"
