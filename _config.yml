@@ -17,6 +17,11 @@ lab:
   pi_name    : "Dr. Yongyang Liu"
   email      : "yliu@tntech.edu"
 
+# Recruiting status. true = show the Home "Join STARLab" callout and the
+# recruiting statement + How to Apply on Join Us; false = show a
+# "not recruiting" notice on Join Us and hide the Home callout.
+recruiting: false
+
 # Build settings
 markdown    : kramdown
 highlighter : rouge

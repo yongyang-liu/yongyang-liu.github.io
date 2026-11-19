@@ -5,11 +5,22 @@ show_title: true
 prose: true
 ---
 
+{% unless site.recruiting %}
+<div class="notice" markdown="1">
+
+**STARLab is not recruiting new Ph.D. students at this time.** This page will be updated when new opportunities become available.
+
+</div>
+{% endunless %}
+
 ## Ph.D. Opportunities
 
 The Socially Intelligent Autonomy, Reasoning, and Learning Laboratory (STARLab) at Tennessee Technological University welcomes highly motivated Ph.D. students interested in advancing artificial intelligence, robotics, and autonomous systems.
 
+{% if site.recruiting %}
 **We are recruiting prospective Ph.D. students with anticipated start dates in Spring/Fall 2027.**
+
+{% endif %}
 
 Our research focuses on developing human-centered, interpretable, and adaptive autonomous systems that can perceive, reason, learn, and interact effectively with humans in complex real-world environments.
 
@@ -34,6 +45,7 @@ We welcome applicants with:
 
 Applicants do not need to have prior experience in every research area listed above.
 
+{% if site.recruiting %}
 <div class="contact-box" markdown="1">
 
 ## How to Apply
@@ -46,3 +58,4 @@ Prospective students are encouraged to contact Dr. Yongyang Liu at **[yliu@tntec
 Please include **"Prospective Ph.D. Student — STARLab"** in the email subject line.
 
 </div>
+{% endif %}
