@@ -5,7 +5,13 @@ show_title: true
 prose: true
 ---
 
-## Current Teaching
+## Current and Upcoming Teaching
+
+<div class="entry">
+  <p class="entry__title">VE 4050 — Autonomous Vehicles</p>
+  <p class="entry__meta">Spring 2027 | Tennessee Technological University</p>
+  <p class="entry__role">Role: Instructor</p>
+</div>
 
 <div class="entry">
   <p class="entry__title">VE 3400 — Introduction to Automotive Systems</p>
